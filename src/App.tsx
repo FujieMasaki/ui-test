@@ -1,9 +1,12 @@
-import Button from "./components/Button";
+// import Button from "./components/Button";
+
+import Form from "./components/Form";
 
 function App() {
   return (
     <>
-      <Button label="ボタン" onClick={() => alert("押されました")} />
+      {/* <Button label="ボタン" onClick={() => alert("押されました")} /> */}
+      <Form />
     </>
   );
 }
