@@ -1,5 +1,6 @@
 // import Button from "./components/Button";
 
+import AsyncComponent from "./components/AsyncComponent";
 import Form from "./components/Form";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       {/* <Button label="ボタン" onClick={() => alert("押されました")} /> */}
       <Form />
+      <AsyncComponent />
     </>
   );
 }
