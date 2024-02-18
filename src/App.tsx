@@ -1,5 +1,4 @@
-// import Button from "./components/Button";
-import { UserSearch } from "./components/UserSearch";
+import Power from "./components/Power";
 
 function App() {
   return (
@@ -7,7 +6,7 @@ function App() {
       {/* <Button label="ボタン" onClick={() => alert("押されました")} /> */}
       {/* <Form /> */}
       {/* <AsyncComponent /> */}
-      <UserSearch />
+      <Power name="電源" />
     </>
   );
 }
