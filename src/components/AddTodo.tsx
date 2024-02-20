@@ -8,10 +8,10 @@ interface TodoItem {
 
 // Propsの型を定義
 interface AddTodoProps {
-  setTodos: React.Dispatch<React.SetStateAction<TodoItem[]>>;
+  setTodo: React.Dispatch<React.SetStateAction<TodoItem[]>>;
 }
 
-const AddTodo: React.FC<AddTodoProps> = ({ setTodos }) => {
+const AddTodo: React.FC<AddTodoProps> = ({ setTodo: setTodos }) => {
   const [task, setTask] = useState<string>("");
 
   const handleNewTask = (event: ChangeEvent<HTMLInputElement>) => {
