@@ -1,4 +1,5 @@
 import Power from "./components/Power";
+import Todo from "./components/Todo";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* <Form /> */}
       {/* <AsyncComponent /> */}
       <Power name="電源" />
+      <Todo />
     </>
   );
 }
